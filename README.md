@@ -19,7 +19,7 @@ $ asdf global dotnet-core 5.0.203
 
 To start an Fsharpy session...
 ```
-iex> {:ok, p} = Fsharpy.start_ink
+iex> {:ok, p} = Fsharpy.start_link
 {:ok, #PID<0.142.0>}
 ```
 
